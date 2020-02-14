@@ -2,7 +2,7 @@ import { drawSnippets } from '../drawer';
 
 export const searchLineSelector = '[data-component="search-line"]';
 export const searchBtnSelector = '[data-component="search-btn"]';
-export const youtubeApiKey = 'AIzaSyArb00ECe-Wj0_B1YQrfunFGjQ4DKatpNU';
+export const youtubeApiKey = 'AIzaSyAVP1SW0zOggdpBIGb9ONv82VbH_JTsukM';
 
 export const search = query => {
   const fetchResults = fetch(`https://www.googleapis.com/youtube/v3/search?key=${youtubeApiKey}&type=video&part=snippet&maxResults=15&q=${query}`);
